@@ -1,0 +1,20 @@
+{
+    "name": "userx/wordpresshelper",
+    "description": "This class provides helper methods for various WordPress functions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Woodcock",
+            "email": "john@userx.co"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "WordPressHelper": "src/"
+        }
+    }
+}
