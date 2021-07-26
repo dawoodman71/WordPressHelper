@@ -190,8 +190,8 @@ class WordPressHelper
     *
     * @returns string
     */
-    static public function slugify( $str ) {
-        return str_replace( " ", "_", $str );
+    static public function slugify( $str, $separator = '-' ) {
+        return strtolower(str_replace( " ", $separator, $str ));
     }
 
     /**
